@@ -1,15 +1,50 @@
-header
+#cont_principal
 {
-    background: rgb(184, 225, 252);
-    width: 95%;
-    height: 1000px;
+    background:rgb(184, 225, 252); 
+    width: 98%;
+    height: auto;
+    border: 2px solid black;
     margin: 0 auto;
+
+
 }
 
-section
+
+header
+{
+    background: blue;
+    width: 75%;
+    height: 50px;
+    border: 1px solid honeydew;
+    margin-top: 2px;
+}
+ 
+nav
 {
     background: black;
-    width: 100%;
-    height: 60px;
-    margin: 0 auto;
+    width: 75%;
+    height: auto;
+    border: 1px solid rgb(252, 11, 11);
+    color: azure;
+    margin-top: 2px;
+}
+
+article
+{
+    background: darkred;
+    width: 75%;
+    height: auto;
+    border: 1px solid rgb(16, 245, 92);
+    margin-top: 2px;
+    
+}
+
+aside
+{
+    background: darkred;
+    width: 75%;
+    height: auto;
+    border: 1px solid rgb(16, 245, 92);
+    margin-top: 2px;
+    
 }
