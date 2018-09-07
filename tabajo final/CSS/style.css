@@ -1,50 +1,93 @@
+*{ 
+    height: auto;
+  }
+
+
 #cont_principal
 {
     background:rgb(184, 225, 252); 
     width: 98%;
-    height: auto;
-    border: 2px solid black;
     margin: 0 auto;
-
-
 }
 
 
 header
 {
-    background: blue;
-    width: 75%;
-    height: 50px;
-    border: 1px solid honeydew;
+    width: 100%;
     margin-top: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
  
 nav
 {
     background: black;
-    width: 75%;
-    height: auto;
-    border: 1px solid rgb(252, 11, 11);
+    width: 100%;
     color: azure;
-    margin-top: 2px;
+    margin-top: 3px;
+    margin: 0 auto;
+    text-align: center; 
+    border-radius: 10px;   
+}
+
+
+ul
+{
+list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+
+}
+
+
+.enlace
+{
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+    font: bold 14px verdana, sans-serif;
 }
 
 article
-{
-    background: darkred;
-    width: 75%;
-    height: auto;
-    border: 1px solid rgb(16, 245, 92);
+{   background:red;
+    width: 69%;
+    text-align: justify;
     margin-top: 2px;
-    
+    float: left; 
 }
 
-aside
+#imagenes
 {
-    background: darkred;
-    width: 75%;
-    height: auto;
-    border: 1px solid rgb(16, 245, 92);
+    width: 29%;
+    margin: 2px;
     margin-top: 2px;
-    
+    float: right;  
 }
+
+.imag_vege
+
+{
+    width: 80%;
+    display: block;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 10px;
+}
+
+/*footer
+{
+    background: blue;
+    width:98%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}*/
